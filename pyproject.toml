@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "saxontegin-costopt_jd254"
+name = "saxontegin-inference_rate_limit_queue_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出推理成本优化顾问·推理服务的限流与排队上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://saxontegin.github.io"
-Repository = "https://github.com/saxontegin/costopt_jd254"
-Issues = "https://github.com/saxontegin/costopt_jd254/issues"
+Repository = "https://github.com/saxontegin/inference_rate_limit_queue_count_trace"
+Issues = "https://github.com/saxontegin/inference_rate_limit_queue_count_trace/issues"
 
 [project.scripts]
-costopt_jd254 = "costopt_jd254:main"
+inference_rate_limit_queue_count_trace = "inference_rate_limit_queue_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["costopt_jd254"]
+py-modules = ["inference_rate_limit_queue_count_trace"]

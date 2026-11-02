@@ -1,11 +1,11 @@
-# costopt_jd254
+# inference_rate_limit_queue_count_trace
 
 **追溯推理成本优化顾问·推理服务的限流与排队里每一份贡献来自哪里。**
 
-`costopt_jd254` —— 统计各来源片段的贡献量与占比，标出推理成本优化顾问·推理服务的限流与排队上最主要的来源
+`inference_rate_limit_queue_count_trace` —— 统计各来源片段的贡献量与占比，标出推理成本优化顾问·推理服务的限流与排队上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`costopt_jd254.py` 拷走就能用
+- 单文件，`inference_rate_limit_queue_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install saxontegin-costopt_jd254
+pip install saxontegin-inference_rate_limit_queue_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-costopt_jd254 --help
+inference_rate_limit_queue_count_trace --help
 ```
 
-也可以不用安装，直接把 `costopt_jd254.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `inference_rate_limit_queue_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ costopt_jd254 --help
 ## 用法
 
 ```bash
-python costopt_jd254.py --file input.txt
-python costopt_jd254.py --text "示例内容"
-python costopt_jd254.py --file input.txt --json
+python inference_rate_limit_queue_count_trace.py --file input.txt
+python inference_rate_limit_queue_count_trace.py --text "示例内容"
+python inference_rate_limit_queue_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python costopt_jd254.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_costopt_jd254.py
+python test_inference_rate_limit_queue_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_costopt_jd254.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/saxontegin/costopt_jd254>
+- GitHub 仓库：<https://github.com/saxontegin/inference_rate_limit_queue_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_costopt_jd254.py
 saxontegin 做推理成本优化顾问·推理服务的限流与排队相关的问题，方向对标微软的专家推理成本优化顾问岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://saxontegin.github.io>
-- 仓库：<https://github.com/saxontegin/costopt_jd254>
+- 仓库：<https://github.com/saxontegin/inference_rate_limit_queue_count_trace>
 
 ## 许可
 
